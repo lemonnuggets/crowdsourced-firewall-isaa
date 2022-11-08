@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;500&display=swap');
+  </style>
+  <title>Crowdsourced Firewall Pop-Up</title>
+  <link rel="stylesheet" href="popup.css" />
+  <script defer src="popup.js"></script>
+</head>
+
+<body>
+  <div class="decorRow"></div>
+  <div class="wrapper-1">
+    <div class="main">
+      <h1 class="title"><span class="highlight">Crowdsource</span> Blocker</h1>
+      <div class="row">
+        <label for="urlInput" class="currUrlLbl">Current URL:</label>
+        <input type="image" src="assets/listIcon.svg" alt="List" class="listBtn" />
+      </div>
+      <input type="url" name="urlInput" id="urlInput" />
+      <button class="reportBtn">
+        Report
+      </button>
+    </div>
+  </div>
+  <div class="wrapper-2">
+    <div class="repoPage">
+      <div class="title">Repository</div>
+      <div class="tripleRow headerRow">
+        <div class="header">URL</div>
+        <div class="header">Block</div>
+        <div class="header">Whitelist</div>
+      </div>
+      <div class="repoBody">
+
+      </div>
+      <button class="backBtn">
+        Back
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>

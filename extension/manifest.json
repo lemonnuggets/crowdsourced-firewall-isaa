@@ -1,0 +1,19 @@
+{
+    "name": "Crowdsourced Firewall",
+    "description": "An extension that allows you to create a firewall that is based on the crowd-sourced data from other users of the extension.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>",
+        "identity",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
